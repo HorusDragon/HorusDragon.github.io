@@ -1,0 +1,578 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Principal container*/
+.contain{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*Header*/
+header{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    background: #484f4f;
+    margin-bottom: 1px;
+    color: #fff;
+}
+
+.quince{
+    line-height: 40px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/*Navbar*/
+nav{
+    list-style: none;
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+}
+
+.buttons{
+    position: relative;
+    float: left;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    background: #fff;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.buttons:hover{
+    background: #484f4f;
+    color: #fff;
+}
+.buttons:active{
+    transform: translateY(2px);
+    transition: all ease-in-out 250ms;
+}
+
+.menu{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: none;
+}
+.menu img{
+    width: auto;
+    height: auto;
+}
+.menu:active{
+    transform: translateY(2px);
+    transition: all ease-in-out 250ms;
+}
+
+/*UpArrow*/
+.cielo{
+    display: inline-block;
+    padding: 10px;
+    background: #484f4f;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
+
+/*Temporizador*/
+.timer{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    top: 300px;
+    text-align: center;
+
+  }
+  .countdown div{
+    float: left;
+    padding: 10px;
+    color: #000;
+    font-weight: bolder;
+  }
+  .countdown p{
+      width: auto;
+      font-weight: bolder;
+  }
+
+/*First section*/
+section{
+    position: relative;
+    margin: 15px auto;
+    width: 100%;
+    height: 400px;
+    background: #484f4f;
+    color: #fff;
+}
+section img{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+section h1{
+    margin: auto 5px;
+    text-align: center;
+    font-weight: 500;   
+}
+section h3{
+    margin: 15px auto 1px;
+    text-align: center; 
+    font-weight: 500;
+    font-size: 25px; 
+}
+section p{
+    text-align: center; 
+    font-weight: 500;
+    font-size: 18px; 
+}
+
+/*My Pictures*/
+h1{
+    margin: 5px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.photos{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 450px;
+}
+.photos img{
+    width: 100%;
+    height: 450px;  
+}
+
+/*Church*/
+.church{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 410px;
+    background: #484f4f;
+    color: #fff;
+}
+.church img{
+    width: 100%;
+    height: 220px;  
+}
+.church h6{
+    text-align: justify;
+    margin: 10px 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.church p{
+    text-align: justify;
+    margin: 10px 10px;
+    letter-spacing: 1px
+}
+.church p span{
+    text-align: justify;
+    margin: 10px 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+form{
+    text-align: center;  
+    margin: 30px auto;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border: 2px solid;
+    border-color: #b2c2bf;
+    border-radius: 10px;
+    background: #b2c2bf;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+}
+input:active{
+    transform: translateY(2px);
+}
+
+/*Terrace*/ 
+.terrace{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 410px;
+    background: #484f4f;
+    color: #fff;
+}
+.terrace img{
+    width: 100%;
+    height: 220px;
+}
+.terrace h6{
+    text-align: justify;
+    margin: 10px 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.terrace p{
+    text-align: justify;
+    margin: 5px 10px;
+    letter-spacing: 1px;
+}
+.terrace p span{
+    text-align: justify;
+    margin: 10px 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/*Confirmation*/
+.container{
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
+    line-height: 40px;
+}
+
+/*Whatsap Buttonp*/
+.button-whatsapp{
+    display: table;
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #484f4f url(../images/whatsapp.png) no-repeat 40px center; background-size: 28px;
+    width: 280px;
+    height: 40px;   
+}
+
+.container .button-whatsapp{
+    color: #fff;
+    font-weight: 500;
+}
+.container .button-whatsapp:active{
+    transform: translateY(2px);
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 55px;
+    margin: auto auto 5px;
+    background-color: #484f4f;
+    color: #fff;
+}
+
+.footer{
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.phone{
+    text-align: center;
+    font-weight: 500;
+    line-height: 2px;
+    letter-spacing: 3px;
+}
+
+/*Responsive design*/
+@media(min-width: 320px) and (max-width: 450px){
+    nav{
+        height: auto;
+    }
+    .quince{
+        word-spacing: 10px;
+        letter-spacing: 10px;
+        font-size: 25px;
+    }
+
+    .buttons{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        display: none;
+        font-weight: 500;
+        margin-left: 0;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .cielo{
+        display: inline-block;
+        padding: 8px;
+        background: #484f4f;
+        font-size: 10px;
+        color: #fff;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10px;
+        right: 6px;
+    }
+
+    .timer{
+        display: inline-block;
+        padding: 1px;
+        color: #000;
+        font-size: 10px;
+        color: #fff;
+        position: absolute;
+        left: 3px;
+        top: 410px;
+        text-align: center;
+      }
+      .countdown div{
+        float: left;
+        padding: 4px;
+        color: #000;
+        font-weight: bolder;
+      }
+      .countdown p{
+          width: auto;
+          font-weight: bolder;
+          font-size: 16px;
+      }
+      .countdown span{
+        width: auto;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    section{
+        height: 480px;
+    }
+    section  img{
+        height: 480px;
+        width: 50%;
+    }
+    section h1{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    section h3{
+        font-size: 20px;
+    }
+    section p{
+        margin: 1px 3px;
+        font-size: 18px;
+    }
+    section p.mad{
+        margin: 5px 3px;
+        font-size: 18px;
+    }
+
+    .church{  
+        height: 500px;
+    }
+    iframe .church{
+        height: 500px;
+    }
+
+    .terrace{  
+        height: 470px;
+    }
+
+    iframe .terrace{
+        height: 470px;
+    }
+}
+@media(min-width: 451px) and (max-width: 767px){
+    nav{
+        height: auto;
+    }
+    .quince{
+        word-spacing: 10px;
+        letter-spacing: 10px;
+        font-size: 25px;
+    }
+
+    .buttons{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        display: none;
+        font-weight: 500;
+        margin-left: 0;
+    }
+
+    .cielo{
+        display: inline-block;
+        padding: 10px;
+        background: #484f4f;
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10px;
+        right: 6px;
+    }
+
+    .timer{
+        display: inline-block;
+        padding: 1px;
+        color: #000;
+        font-size: 10px;
+        color: #fff;
+        position: absolute;
+        left: 30px;
+        top: 340px;
+        text-align: center;
+      }
+      .countdown div{
+        float: left;
+        padding: 4px;
+        color: #000;
+        font-weight: bolder;
+      }
+      .countdown p{
+          width: auto;
+          font-weight: bolder;
+          font-size: 18px;
+      }
+      .countdown span{
+        width: auto;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    section{
+        height: 400px;
+    }
+    section  img{
+        height: 400px;
+    }
+    section h1{
+        font-size: 27px;
+    }
+    section h3{
+        font-size: 22px;
+    }
+    section p{
+        margin: 1px 3px;
+        font-size: 20px;
+    }
+    section p.mad{
+        margin: 5px 3px;
+        font-size: 18px;
+    }
+
+    .church{  
+        height: 430px;
+    }
+
+    .terrace{  
+        height: 430px;
+    }
+
+    iframe{
+        width: 430px;
+    }
+}
+@media(max-width: 768px){
+    .buttons{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        display: none;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .cielo{
+        display: inline-block;
+        padding: 10px;
+        background: #484f4f;
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10px;
+        right: 3px;
+    }
+
+    
+}
+@media(min-width: 769px) and (max-width: 850px){
+    .buttons{
+        margin: 0 7px;
+        font-size: 16px;
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+}  
+@media(min-width: 851px) and (max-width: 1023px){
+    .buttons{
+            margin: 0 10px;
+            font-size: 18px;
+            position: relative;
+        }
+        .menu{
+            display: none;
+        }
+    }
+    section h1{
+        padding-top: 22px;
+    }
+    section p{
+        font-size: 20px;
+        margin: 1px 5px;
+    }
+    section p.mad{
+        font-size: 20px;
+        margin: 1px 3px;
+    }
+    
+@media(min-width: 1024px){
+    .buttons{
+        margin: 0 40px;
+        font-size: 18px;
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+}
+

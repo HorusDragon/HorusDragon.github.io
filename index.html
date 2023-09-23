@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Invitaciones digitales">
+    <meta name="keywords" content="HTML, CSS, JavaScript, quince, invitacion, fiesta, quinceaños, quince años, invitaciones, eventos, bautizos, bodas, despedida de solteras">
+    <meta name="author" content="Ruben Velazquez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <!--Font Aweson-->
+    <script src="https://kit.fontawesome.com/b2d3ca64fc.js" crossorigin="anonymous"></script>
+    
+    <!--Title-->
+    <title>Mis XV Años</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="contain">
+    <header>
+      <h1 class="quince">Mis XV Años</h1>
+    </header>
+    <!--Navbar--> 
+    <div class="menu">
+      <i class="fas fa-bars"></i> Menu
+    </div>
+    <nav class="navbar">
+      <ul>
+        
+        <a href="#ceremony"><li class="buttons">Ceremonia Religiosa</li></a>
+        <a href="#reception"><li class="buttons">Recepción</li></a>
+        <a href="#confirmation"><li class="buttons">Confirmar Asistencia</li></a>
+      </ul>
+    </nav>
+
+    <style>
+      .personalColorFraseLarga{
+          color: #88663a !important;
+      }
+  </style>
+
+    <!--Up Arrow-->
+    <div class="cielo">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+    <section id="FRASELARGA" class="container containerCustom background-cover " style="background-color: #333;background-image: url('assets/images/FOTO_FRASE_LARGAfrase.jpg');">
+      <div class="row">
+      <div class="col-lg-8 col-md-offset-2" style="min-height: 1vh;display: flex; align-items: center;">
+      <div class="hash-box">
+      <div class="text-center">
+      <h1 class="frasesMax personalColorFraseLarga" style="text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
+      <div style="font-size:23px;">Hay momentos en la vida <br>que imaginamos, soñamos<br> y esperamos, uno de esos momentos<br> ha llegado y lo quiero <br>compartir contigo. <br><br> ¡No puedes faltar! <br> ¡Me hará muy feliz <br>verte ese día!</div><br><br><style>h1.personalColorTitutlo, h2.personalColorTitutlo{color:transparent !important; text-shadow: none !important;}</style>
+      </h1>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+  
+    <!--Pincipal section-->
+    <section class="descrip-name">
+      <img src="assets/images/dali.jpg" alt="Quinceañera">
+      
+        <!--Temporizador-->
+        <div class="timer">
+          <div class="countdown">
+            <div>
+              <p id="days">00</p>
+              <span>Días</span>
+            </div>
+            <div>
+              <p id="hours">00</p>
+              <span>Hrs</span>
+            </div>
+            <div>
+              <p id="minutes">00</p>
+              <span>Min</span>
+            </div>
+            <div>
+              <p id="seconds">00</p>
+              <span>Seg</span>
+            </div>
+          </div>
+        </div>
+          
+        <h1>Dalila Cantero Martinez</h1>
+
+        <h3>Mis Papás</h3>
+        <p>Leo</p>
+        <p>Y</p> 
+        <p class="mad">Ara</p>
+          
+        <h3>Mis Padrinos</h3>
+        <p>Ale</p> 
+        <p>Y</p>
+        <p class="mad">Anita</p>
+        
+    </section>
+
+    
+      <!--Church-->
+      <div class="map"></div>
+      <h1 id="ceremony">Ceremonia Religiosa</h1>
+      <div class="church" id="map">
+          <img src="assets/images/church.jpg" image.style.width=""  alt="Parroquia">
+    
+          <h6>Parroquia de Santa Catarina Virgen y Martir</h6> 
+          <p><span>Fecha:</span> 07 de Octubre de 2023 13:45 hrs</p>
+          <p><span>Domicilio:</span> Sta. Catarina S/N, La Concepcion,  Tlahuac, 13400, Santa Catarina Yecahuitzotl, CDMX </p>
+          
+        <form action="" onclick="findMe()">
+          <input type="submit" value="Mapa">
+        </form>
+      </div>
+      
+    <!--Terrace--> 
+    <h1 id="reception">Recepción</h1>
+      <div class="terrace" id="maps">
+          <img src="assets/images/terraza.jpg" alt="Terraza">
+
+          <h6>Lugar De Recepcion De El Evento</h6> 
+          <p><span>Fecha:</span> 07 de Octubre de 2023 15:00 hrs</p>
+          <p><span>Domicilio:</span> Tlalalcoyococ 23, La Guadalupe,Tlahuac, 13060, Santa Catarina Yecahuizotl, CDMX</p>
+
+          <form action="" onclick="searchMe()" >
+            <input type="submit" value="Mapa" id="reception">
+          </form>
+      </div>
+
+      <!--Confirmation--> 
+      <h1>Confirmar Asistencia</h1>
+      <div class="container" id="confirmation">
+        <a href="https://api.whatsapp.com/send?phone=525571923761&text=Hola%2C+Confirmo+mi+asistencia%21%21%21" class="button-whatsapp">Confirmar</a>
+      </div>
+      
+
+      
+     <!--JavaScript--> 
+      <script src="https://console.cloud.google.com/apis/credentials?hl=es-419&project=marine-tensor-323821"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      
+  </div>
+</body>
+</html>
