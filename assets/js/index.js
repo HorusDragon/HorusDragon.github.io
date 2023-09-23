@@ -1,11 +1,11 @@
 /*Dirección Parroquia*/
 function findMe(){
-    document.getElementById('map').innerHTML='<div class="map"><iframe class="church" src="https://maps.app.goo.gl/EvUYcH2RY3kLEgnB7" width="100%" height="410" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>';
+    document.getElementById('map').innerHTML='<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4091.965869834725!2d-98.97156941007296!3d19.30945089376871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1d078375b801%3A0x5de4904faf165d44!2sParroquia%20de%20Santa%20Catarina%20Virgen%20y%20Martir!5e0!3m2!1ses!2smx!4v1695442708369!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>';
 }
 
 /*Direcciòn Salon de Evento*/
 function searchMe(){
-    document.getElementById('maps').innerHTML='<div class="maps"><iframe class="terrace" src="https://maps.app.goo.gl/c9kiqxfG3JGREooD9" width="100%" height="410"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>';
+    document.getElementById('maps').innerHTML='<div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.260027632371!2d-98.96629641910768!3d19.31451971479018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1da7ae98f955%3A0x1954dff388681ff2!2sTlalalcoyococ%2023%2C%20La%20Guadalupe%2C%20Tl%C3%A1huac%2C%2013060%20Santa%20Catarina%20Yecahuitzotl%2C%20CDMX!5e0!3m2!1ses!2smx!4v1695443309896!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>';
 }
 
 /*Menú*/
